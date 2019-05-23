@@ -67,7 +67,7 @@ public class CardTrick {
         Card luckyCard = new Card();
         luckyCard.setValue(4);
         luckyCard.setSuit(Card.SUITS[2]);
-        
+        System.out.println("The Result -> Lucky  Card Value:  "+ luckyCard.getValue()+ " Suit Value: "+luckyCard.getSuit());
         
         
     }
