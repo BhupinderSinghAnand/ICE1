@@ -48,7 +48,7 @@ public class CardTrick {
         System.out.println("Pick the Card Value - Integer Value (1-13)");  // Card Value asked
         int c  = input.nextInt(); // user input saved to c.
         
-        System.out.println("Enter the suit Value - Integer Value(1-4)"); // Suit asked
+        System.out.println("Enter the suit Value - Integer Value(0-3)"); // Suit asked
         int s = input.nextInt();// user input saved to s.
 
             String ss = Card.SUITS[s];
