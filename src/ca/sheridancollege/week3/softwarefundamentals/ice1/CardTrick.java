@@ -64,5 +64,11 @@ public class CardTrick {
         // Reporting the Value and Suit of the Card to the USER.
         System.out.println("The Result ->  Card Value: "+ c+ " Suit Value: "+ss);
         
+        Card luckyCard = new Card();
+        luckyCard.setValue(4);
+        luckyCard.setSuit(Card.SUITS[2]);
+        
+        
+        
     }
 }
